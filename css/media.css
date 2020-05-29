@@ -1,0 +1,146 @@
+/* ----- Media Queries  ----- */
+
+/*  992-1200px */
+@media screen and (max-width: 1200px) {
+
+}
+
+/*  768-992px */
+@media screen and (max-width: 992px) {
+	.container {
+		width: 700px;
+	}
+	
+	.offer__title {
+		font-size: 41px;
+	}
+
+	.nav-menu {
+		display: none;
+	}
+
+	.about__wrapper, .skills__wrap {
+		flex-direction: column;
+	}
+
+	.merit {
+		margin-top: 20px;
+	}
+
+	.skills__item {
+		margin-bottom: 20px;
+	}
+
+	.work__img img,
+	.work__overlay {
+		width: 90%;
+	}
+
+	.skills__wrap {
+		width: 100%;
+	}
+}
+
+/*  576-768px */
+@media screen and (max-width: 768px) {
+	.container {
+		width: 520px;
+	}
+	.offer__title {
+		font-size: 35px;
+	}
+	.offer__work {
+		font-size: 26px;
+	}
+	.work__wrap {
+		flex-direction: column;
+	}
+	.work__item {
+		margin-bottom: 30px;
+	}
+}
+
+/*  320-576px */
+@media screen and (max-width: 576px) {
+	.container {
+		width: 100%;
+	}
+	.nav {
+		flex-direction: column;
+		text-align: center;
+	}
+	.logo {
+		margin-bottom: 10px;
+	}
+
+	.offer {
+		margin-top: 200px;
+	}
+
+	.header__arrow  {
+		margin-top: 200px
+	}
+
+	.offer__title  {
+		font-size: 30px;
+		line-height: 1.4em;
+	}
+	.offer__work {
+		font-size: 22px;
+	}
+	h2 {
+		text-align: center;
+	}
+
+	.bagro__text {
+		width: 100%;
+	}
+
+	.bagro {
+		margin: 0 auto;
+		width: 90%;
+	}
+
+	.bagro__title, 
+	.merit__title,
+	.contact__title {
+		text-align: center;
+	}
+
+	.merit__list, 
+	.contact__wrap  {
+		flex-direction: column;
+	}
+
+	.merit__list {
+		width: 100%;
+	}
+
+	.merit__item {
+		margin: 0 auto 50px;
+	}
+
+	.merit__list, 
+	.contact__mess {
+		margin-left: 0;
+	}
+
+	.contact__link {
+		margin-left: 0;
+		margin-bottom: 20px;
+	}
+
+	.skills__wrap  {
+		padding-left: 20px;
+	}
+
+	.work__img img,
+	.work__overlay {
+		width: 100%;
+		margin: 0 auto;
+	}
+
+	.footer__cred {
+		text-align: center;
+	}
+}
